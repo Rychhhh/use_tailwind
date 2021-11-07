@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700&family=Roboto+Mono&family=Tenor+Sans&family=Varela+Round&display=swap");
+
+body {
+  font-family: "Roboto Mono";
+}
+
+nav {
+  font-family: "Tenor Sans";
+}
+
+#particles-js {
+  background: rgba(24, 37, 100, 1);
+  font-family: "M Plus Rounded 1c", sans-serif;
+  background-size: cover;
+}
+
+/* Navbar Sticky */
+.sticky {
+  padding: 0.5% 2.5%;
+  background-color: rgb(100, 223, 196);
+  position: fixed;
+  color: rgb(2, 2, 2);
+  opacity: 0.8;
+  transition: 1s ease-in-out;
+}
+
+/* Navbar back again  */
+.fixed {
+  transition: 1s ease-out;
+}
+
+/* Specilizing */
+#specilizing {
+  background-color: #00cba9;
+  font-family: "Roboto Mono", sans-serif;
+}
+
+/* Word For Me */
+.wordforme {
+  background-color: #669db3;
+}
+
+/* Footer */
+.footer {
+  background-color: #1b2a3c;
+}
+
+.footer .footer_button {
+  background-color: #314d6d;
+  border-radius: 40px;
+}
